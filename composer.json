@@ -1,0 +1,30 @@
+{
+    "name": "lara/avatar-maker",
+    "description": "Laravel avatar maker.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Manirathinam M",
+            "email": "manirathinamm2007@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lara\\LaraAvatarMaker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lara\\LaraAvatarMaker\\LaraAvatarMakerServiceProvider"
+            ],
+            "aliases": {
+                "LaraAvatarMaker": "Lara\\LaraAvatarMaker\\Facades\\LaraAvatarMakerFacade"
+            }
+        }
+    }
+
+}
