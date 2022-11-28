@@ -1,5 +1,5 @@
 {
-    "name": "lara/avatar-maker",
+    "name": "laras/avatar-maker",
     "description": "Laravel avatar maker.",
     "license": "MIT",
     "type": "library",
